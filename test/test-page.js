@@ -10,3 +10,11 @@ describe("array should contain more than 2 elements", ()=>{
     assert(aritGeo([2])=="Array should contain more than two elements")
     });
 })
+describe("all elements in the array should be numbers only", ()=>{
+    it("should return `Array should contain numbers only` for arrays that contains elements other than numbers", ()=>{
+        assert(aritGeo([1,2,3,"hsdb",56])=="Array should contain numbers only")
+    });
+    it("should return `Array should contain numbers only` for arrays that contains elements other than numbers", ()=>{
+    assert(aritGeo([6,"7",9,"45"])=="Array should contain numbers only")
+    });
+})

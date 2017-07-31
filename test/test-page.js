@@ -36,3 +36,11 @@ describe("array should return `0` for an empty array", ()=>{
         assert(aritGeo([])==0)
     });
 });
+describe("array should return `Geometric`", ()=>{
+    it("should return `Geometric` if progression is of Geometric type", ()=>{
+        assert(aritGeo([3,9,27])=="Geometric")
+    });
+    it("should return `Geometric` if progression is of Geometric type", ()=>{
+    assert(aritGeo([2,4,8,16])=="Geometric")
+    });
+});

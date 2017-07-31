@@ -31,3 +31,8 @@ describe("array should return `-1` for neither geometric or arithmetic", ()=>{
         assert(aritGeo([5,2,39,10])==-1)
     });
 });
+describe("array should return `0` for an empty array", ()=>{
+    it("should return `0` for an empty array", ()=>{
+        assert(aritGeo([])==0)
+    });
+});

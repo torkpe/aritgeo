@@ -26,3 +26,8 @@ describe("it should return `Arithmetic`", ()=>{
     assert(aritGeo([2,4,6,8])=="Arithmetic")
     });
 })
+describe("array should return `-1` for neither geometric or arithmetic", ()=>{
+    it("should return `-1` for neither geometric or arithmetic", ()=>{
+        assert(aritGeo([5,2,39,10])==-1)
+    });
+});

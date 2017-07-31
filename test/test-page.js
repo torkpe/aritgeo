@@ -18,3 +18,11 @@ describe("all elements in the array should be numbers only", ()=>{
     assert(aritGeo([6,"7",9,"45"])=="Array should contain numbers only")
     });
 })
+describe("it should return `Arithmetic`", ()=>{
+    it("should return `Arithmetic` if the progression is of arithmetic type", ()=>{
+        assert(aritGeo([1,2,3])=="Arithmetic")
+    });
+    it("should return `Arithmetic` if the progression is of arithmetic type", ()=>{
+    assert(aritGeo([2,4,6,8])=="Arithmetic")
+    });
+})
